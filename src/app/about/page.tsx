@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: "About Us | Martins Construction",
   description:
-    "31 years of licensed general contracting in Los Angeles — Martins Construction's history, values, and credentials.",
+    "31 years of licensed general contracting in Los Angeles: Martins Construction's history, values, and credentials.",
 };
 
 export default function AboutPage() {
@@ -43,8 +43,8 @@ export default function AboutPage() {
             <p className="mt-4 text-espresso-soft/80 leading-relaxed">
               We&apos;ve learned that integrity, attention to detail, and
               honesty at every step make the best working environment for
-              everyone. We get to know our customers on a first-name basis
-              and treat every job like it&apos;s for family — listening to
+              everyone. We get to know our customers on a first name basis
+              and treat every job like it&apos;s for family, listening to
               your wishes and needs so you end up with exactly what you
               envisioned.
             </p>
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 Licensed, insured, and accredited
               </h2>
               <ul className="mt-6 space-y-3 text-sm text-espresso-soft/80">
-                <li>Fully Licensed &amp; Insured — Lic. #{company.license}</li>
+                <li>Fully Licensed &amp; Insured (Lic. #{company.license})</li>
                 <li>General liability &amp; workers&apos; compensation insurance</li>
                 {accreditations.map((a) => (
                   <li key={a}>{a} member / accredited</li>

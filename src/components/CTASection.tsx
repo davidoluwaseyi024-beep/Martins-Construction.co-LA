@@ -10,7 +10,7 @@ export default function CTASection() {
             Ready to talk through your project?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-cream-soft/80">
-            Call for a free in-home estimate — we&apos;ll listen to what you
+            Call for a free in home estimate. We&apos;ll listen to what you
             need before we talk about how to build it.
           </p>
         </Reveal>

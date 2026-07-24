@@ -26,7 +26,7 @@ export const company = {
 // trustSignals below if either changes.
 export const stats = [
   { to: company.yearsInBusiness, suffix: "+", decimals: 0, label: "Years in Business" },
-  { to: 4.9, suffix: "★", decimals: 1, label: "Google Rating" },
+  { to: 4.9, suffix: "", decimals: 1, label: "Google Rating" },
   { to: 27, suffix: "", decimals: 0, label: "Client Reviews" },
   { to: 1, prefix: "Top ", suffix: "%", decimals: 0, label: "BuildZoom Score, CA" },
 ] as const;
@@ -55,10 +55,10 @@ export const services = [
     name: "Kitchen Remodeling",
     short: "Custom kitchens built around how you actually live and cook.",
     description:
-      "The kitchen is the room that brings everyone together, so we treat it that way — designing around your layout, cabinetry, countertops, flooring, fixtures, and appliances until the space fits your taste and your routine, not a showroom template. We work in a range of styles, from Old World kitchens with distressed cabinets to clean, contemporary rooms with minimal ornamentation, and we build every one to hold up to real daily use.",
+      "The kitchen is the room that brings everyone together, so we treat it that way, designing around your layout, cabinetry, countertops, flooring, fixtures, and appliances until the space fits your taste and your routine, not a showroom template. We work in a range of styles, from Old World kitchens with distressed cabinets to clean, contemporary rooms with minimal ornamentation, and we build every one to hold up to real daily use.",
     highlights: [
       "Old World kitchens with distressed cabinetry",
-      "Tuscan designs in natural, earth-tone materials",
+      "Tuscan designs in natural, earth tone materials",
       "French Country styling with decorative shelving",
       "Clean, contemporary kitchens with minimal ornamentation",
     ],
@@ -70,9 +70,9 @@ export const services = [
     name: "Bathroom Remodeling",
     short: "Bathrooms reimagined as a private place to unwind.",
     description:
-      "A bathroom remodel is one of the fastest ways to change how a home feels day to day — and one of the first things buyers notice if you ever sell. We handle every fixture and finish ourselves: tile and flooring, vanities, lighting, shower and tub doors, sinks and toilets, all tailored to your budget and how you want the space to feel, from a quick refresh to a full private retreat.",
+      "A bathroom remodel is one of the fastest ways to change how a home feels day to day, and one of the first things buyers notice if you ever sell. We handle every fixture and finish ourselves: tile and flooring, vanities, lighting, shower and tub doors, sinks and toilets, all tailored to your budget and how you want the space to feel, from a quick refresh to a full private retreat.",
     highlights: [
-      "Glass-enclosed walk-in showers",
+      "Glass enclosed walk in showers",
       "Vessel sinks with stainless faucets",
       "Oversized soaking tubs",
       "Custom storage built into the design",
@@ -85,7 +85,7 @@ export const services = [
     name: "Kitchen & Bath Remodels",
     short: "Combined kitchen and bathroom projects, coordinated from one team.",
     description:
-      "When you're renovating both spaces at once, splitting the work across separate contractors usually means separate schedules, separate budgets, and gaps where nobody's quite in charge. We run combined kitchen-and-bath projects as one job from day one — a single team keeping design, sequencing, and budget aligned so the two spaces come together on the same timeline, not two staggered ones.",
+      "When you're renovating both spaces at once, splitting the work across separate contractors usually means separate schedules, separate budgets, and gaps where nobody's quite in charge. We run combined kitchen and bath projects as one job from day one, with a single team keeping design, sequencing, and budget aligned so the two spaces come together on the same timeline, not two staggered ones.",
     highlights: [
       "One team, one schedule, one budget",
       "Design coordinated across both spaces",
@@ -99,11 +99,11 @@ export const services = [
     name: "Room Additions & Extensions",
     short: "More space, built to match your home's original architecture.",
     description:
-      "Adding on is often the more practical move over relocating — you keep the neighborhood, the school district, the yard you've already put work into, and gain the room you actually need. We build family rooms, home offices, guest suites, and second-story additions to flow seamlessly with your home's existing architecture, so the finished addition reads as part of the original structure, not an obvious add-on.",
+      "Adding on is often the more practical move over relocating. You keep the neighborhood, the school district, the yard you've already put work into, and gain the room you actually need. We build family rooms, home offices, guest suites, and second-story additions to flow seamlessly with your home's existing architecture, so the finished addition reads as part of the original structure, not an obvious add on.",
     highlights: [
       "Family rooms and home offices",
       "Guest bedrooms and suites",
-      "Second-story additions",
+      "Second story additions",
       "Seamless architectural matching, inside and out",
     ],
     image: "/images/services/room-addition.jpg",
@@ -114,11 +114,11 @@ export const services = [
     name: "ADU & Garage Conversion",
     short: "An unused garage, turned into square footage that earns its keep.",
     description:
-      "That garage is doing less for you every year it sits half-used for storage. Converted the right way, it becomes a rental unit, a space for family, a home office, or simply room to grow — without the cost or disruption of building an addition from the ground up. We handle it start to finish, from design and permitting through the last coat of paint, working stud by stud so the finished space matches the quality and character of your primary home, not a converted afterthought.",
+      "That garage is doing less for you every year it sits half used for storage. Converted the right way, it becomes a rental unit, a space for family, a home office, or simply room to grow, without the cost or disruption of building an addition from the ground up. We handle it start to finish, from design and permitting through the last coat of paint, working stud by stud so the finished space matches the quality and character of your primary home, not a converted afterthought.",
     highlights: [
       "Detached and attached ADU construction",
-      "Garage-to-ADU conversions",
-      "Permitting and plan-check coordination",
+      "Garage to ADU conversions",
+      "Permitting and plan check coordination",
       "Design that matches your primary residence",
     ],
     image: "/images/services/adu-exterior.jpg",
@@ -129,9 +129,9 @@ export const services = [
     name: "Custom Home Building",
     short: "New construction, residential and commercial.",
     description:
-      "Full-scope new construction for homeowners and commercial clients who want more than a general contractor pulling permits — they want a building process defined by craftsmanship and clear communication at every phase, from foundation to final walkthrough. We take on both residential and commercial ground-up projects across the greater Los Angeles area.",
+      "Full scope new construction for homeowners and commercial clients who want more than a general contractor pulling permits. They want a building process defined by craftsmanship and clear communication at every phase, from foundation to final walkthrough. We take on both residential and commercial ground-up projects across the greater Los Angeles area.",
     highlights: [
-      "Ground-up residential construction",
+      "Ground up residential construction",
       "Commercial construction projects",
       "General contracting, foundation to finish",
     ],
@@ -169,8 +169,8 @@ export const approach = {
   eyebrow: "Our Approach",
   heading: "The finished space is the result. The relationship is the process.",
   paragraphs: [
-    "Every project runs on the same principle regardless of size: we get to know our clients on a first-name basis and treat the job like it's for family. That means listening to what you actually want before a single material is chosen, then staying in close, honest contact as the work moves from demo to finish.",
-    "It also means the boring parts get taken seriously — permits, sequencing, protecting the rest of your home while we work — so the only thing you have to think about is the outcome, not the logistics.",
+    "Every project runs on the same principle regardless of size: we get to know our clients on a first name basis and treat the job like it's for family. That means listening to what you actually want before a single material is chosen, then staying in close, honest contact as the work moves from demo to finish.",
+    "It also means the boring parts get taken seriously: permits, sequencing, protecting the rest of your home while we work, so the only thing you have to think about is the outcome, not the logistics.",
   ],
 } as const;
 
@@ -179,7 +179,7 @@ export const process = [
     step: "01",
     title: "Call & Consultation",
     description:
-      "Call for a free in-home estimate. We listen first — to your wishes, your needs, and how you actually use the space.",
+      "Call for a free in home estimate. We listen first: to your wishes, your needs, and how you actually use the space.",
   },
   {
     step: "02",
@@ -210,7 +210,7 @@ export const values = [
   {
     title: "Open Communication",
     description:
-      "You're kept aware of progress at every phase — the process stays open and honest from estimate to final walkthrough.",
+      "You're kept aware of progress at every phase, and the process stays open and honest from estimate to final walkthrough.",
   },
   {
     title: "Meticulous Detail",
@@ -235,11 +235,11 @@ export const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "How do I get a project estimate?",
-    answer: `Call us at ${company.phone} for a free in-home estimate. We'll walk the space with you, listen to what you're looking for, and talk through scope before any work begins.`,
+    answer: `Call us at ${company.phone} for a free in home estimate. We'll walk the space with you, listen to what you're looking for, and talk through scope before any work begins.`,
   },
   {
     question: "What services do you offer?",
-    answer: `${services.map((s) => s.name).join(", ")} — from single-room remodels to full custom home builds, for residential and commercial clients.`,
+    answer: `${services.map((s) => s.name).join(", ")}, from single room remodels to full custom home builds, for residential and commercial clients.`,
   },
   {
     question: "How long has Martins Construction been in business?",
@@ -248,22 +248,22 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "Do you work on commercial projects, or just residential?",
     answer:
-      "Both. Alongside residential remodeling and additions, we take on ground-up commercial construction across the greater Los Angeles area.",
+      "Both. Alongside residential remodeling and additions, we take on ground up commercial construction across the greater Los Angeles area.",
   },
   {
     question: "What does the process look like once I hire you?",
     answer:
-      "It runs in four stages: a call and in-home consultation, design and planning where we work out layout, materials, and budget together, construction with open communication throughout, and a final walkthrough to confirm the finished space matches what you envisioned.",
+      "It runs in four stages: a call and in home consultation, design and planning where we work out layout, materials, and budget together, construction with open communication throughout, and a final walkthrough to confirm the finished space matches what you envisioned.",
   },
   {
     question: "How long does a typical project take?",
     answer:
-      "It depends on scope — a bathroom refresh moves much faster than a room addition or ground-up build. We'll walk through a realistic schedule for your specific project during the initial consultation, and keep you updated at every phase once work begins.",
+      "It depends on scope. A bathroom refresh moves much faster than a room addition or ground up build. We'll walk through a realistic schedule for your specific project during the initial consultation, and keep you updated at every phase once work begins.",
   },
   {
     question: "Do you offer financing options?",
     answer:
-      "We work with financing partners including Ygrene, Renew Financial (California FIRST), and the HERO Program for PACE financing on energy-efficient home improvements. Ask us during your consultation about options that may fit your project.",
+      "We work with financing partners including Ygrene, Renew Financial (California FIRST), and the HERO Program for PACE financing on energy efficient home improvements. Ask us during your consultation about options that may fit your project.",
   },
   {
     question: "What are your business hours?",

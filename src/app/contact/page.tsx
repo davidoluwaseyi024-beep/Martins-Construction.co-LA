@@ -6,7 +6,7 @@ import { company, serviceAreas } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Contact | Martins Construction",
   description:
-    "Get a free in-home estimate from Martins Construction, a licensed Los Angeles general contractor.",
+    "Get a free in home estimate from Martins Construction, a licensed Los Angeles general contractor.",
 };
 
 export default function ContactPage() {
@@ -20,7 +20,7 @@ export default function ContactPage() {
           Let&apos;s talk about your project.
         </h1>
         <p className="mt-5 text-espresso-soft/80">
-          Call us today to set up your free in-home estimate. No project is
+          Call us today to set up your free in home estimate. No project is
           too big or too small.
         </p>
       </Reveal>
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </a>
               </li>
               <li>{company.address}</li>
-              <li>Lic. #{company.license} — Fully Licensed &amp; Insured</li>
+              <li>Lic. #{company.license} (Fully Licensed &amp; Insured)</li>
             </ul>
           </div>
 

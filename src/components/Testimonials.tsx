@@ -27,7 +27,7 @@ export default function Testimonials() {
               &ldquo;{t.quote}&rdquo;
             </p>
             <footer className="mt-4 text-sm font-medium text-espresso">
-              — {t.author}
+              {t.author}
               {t.project ? `, ${t.project}` : ""}
             </footer>
           </blockquote>

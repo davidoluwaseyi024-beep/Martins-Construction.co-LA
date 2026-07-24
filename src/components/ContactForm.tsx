@@ -79,7 +79,7 @@ export default function ContactForm() {
       </button>
       {sent && (
         <p className="text-sm text-espresso-soft/70">
-          Opening your email client to send this to us — if nothing opened,
+          Opening your email client to send this to us. If nothing opened,
           email {company.email} directly.
         </p>
       )}

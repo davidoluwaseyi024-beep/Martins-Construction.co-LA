@@ -18,7 +18,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Martins Construction | Los Angeles General Contractor",
   description:
-    "Martins Construction is a licensed general contractor serving the greater Los Angeles area for 31 years — kitchen and bathroom remodeling, room additions, ADUs, and custom home building.",
+    "Martins Construction is a licensed general contractor serving the greater Los Angeles area for 31 years, offering kitchen and bathroom remodeling, room additions, ADUs, and custom home building.",
 };
 
 export default function RootLayout({

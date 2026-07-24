@@ -51,7 +51,7 @@ export default function Home() {
         src="/images/texture/dusk-exterior.jpg"
         alt="Finished home exterior at dusk"
         eyebrow="Craftsmanship"
-        heading="Built for the way Los Angeles lives — day and night."
+        heading="Built for the way Los Angeles lives, day and night."
       />
 
       <ProcessSection />
@@ -66,8 +66,8 @@ export default function Home() {
               Built on communication, not just construction.
             </h2>
             <p className="mt-4 text-espresso-soft/80">
-              We get to know our clients on a first-name basis and treat every
-              project like family — because a remodel only feels successful
+              We get to know our clients on a first name basis and treat every
+              project like family, because a remodel only feels successful
               when you were part of it the whole way through.
             </p>
           </Reveal>

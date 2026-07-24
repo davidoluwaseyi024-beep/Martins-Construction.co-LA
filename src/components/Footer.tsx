@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-2">
-            <Link href="/" aria-label="Martins Construction — home" className="inline-block">
+            <Link href="/" aria-label="Martins Construction, home" className="inline-block">
               <Logo iconHeight={56} wordmarkClassName="text-paper" accentClassName="text-gold-soft" />
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream-soft/80">
