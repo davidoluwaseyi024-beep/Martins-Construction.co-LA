@@ -10,11 +10,13 @@ import Image from "next/image";
 export default function Logo({
   className,
   iconHeight = 44,
+  wordmarkSize = "text-sm",
   wordmarkClassName = "text-espresso",
   accentClassName = "text-clay",
 }: {
   className?: string;
   iconHeight?: number;
+  wordmarkSize?: string;
   wordmarkClassName?: string;
   accentClassName?: string;
 }) {
@@ -30,7 +32,7 @@ export default function Logo({
         priority
       />
       <span
-        className={`mt-0.5 font-display text-sm font-bold uppercase tracking-wide whitespace-nowrap ${wordmarkClassName}`}
+        className={`mt-0.5 font-display font-bold uppercase tracking-wide whitespace-nowrap ${wordmarkSize} ${wordmarkClassName}`}
       >
         Martins <span className={accentClassName}>Construction</span>
       </span>

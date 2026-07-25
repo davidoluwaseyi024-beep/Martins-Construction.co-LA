@@ -35,10 +35,11 @@ export default function Nav() {
           : "border-line/70 bg-cream/90 backdrop-blur"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 lg:px-8">
         <Link href="/" aria-label="Martins Construction, home" className="shrink-0">
           <Logo
-            iconHeight={48}
+            iconHeight={32}
+            wordmarkSize="text-xs"
             wordmarkClassName={`transition-colors duration-500 ${
               overlayHero ? "text-paper" : "text-espresso"
             }`}
