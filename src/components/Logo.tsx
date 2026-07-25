@@ -10,12 +10,14 @@ import Image from "next/image";
 export default function Logo({
   className,
   iconHeight = 44,
+  iconClassName,
   wordmarkSize = "text-sm",
   wordmarkClassName = "text-espresso",
   accentClassName = "text-clay",
 }: {
   className?: string;
   iconHeight?: number;
+  iconClassName?: string;
   wordmarkSize?: string;
   wordmarkClassName?: string;
   accentClassName?: string;
@@ -27,8 +29,8 @@ export default function Logo({
         alt="Martins Construction"
         width={iconHeight * 1.86}
         height={iconHeight}
-        className="w-auto object-contain"
-        style={{ height: iconHeight }}
+        className={`w-auto object-contain ${iconClassName ?? ""}`}
+        style={iconClassName ? undefined : { height: iconHeight }}
         priority
       />
       <span

@@ -38,8 +38,9 @@ export default function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 lg:px-8">
         <Link href="/" aria-label="Martins Construction, home" className="shrink-0">
           <Logo
-            iconHeight={32}
-            wordmarkSize="text-xs"
+            iconHeight={28}
+            iconClassName="h-6 lg:h-7"
+            wordmarkSize="text-[10px] lg:text-[11px]"
             wordmarkClassName={`transition-colors duration-500 ${
               overlayHero ? "text-paper" : "text-espresso"
             }`}
