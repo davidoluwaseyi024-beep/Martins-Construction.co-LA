@@ -24,6 +24,7 @@ export default function ServiceFeature({
             : "bg-linear-to-r from-espresso/85 via-espresso/40 to-transparent"
         }`}
       />
+      <div className="absolute inset-0 bg-espresso/35 lg:hidden" />
 
       <div
         className={`relative mx-auto w-full max-w-6xl px-6 pb-20 lg:px-8 ${
@@ -32,15 +33,15 @@ export default function ServiceFeature({
       >
         <div className={`max-w-lg ${alignEnd ? "text-right" : ""}`}>
           <Reveal direction={alignEnd ? "right" : "left"}>
-            <h2 className="font-display text-4xl leading-tight text-paper sm:text-5xl">
+            <h2 className="font-display text-4xl leading-tight text-paper drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)] sm:text-5xl lg:drop-shadow-none">
               {service.name}
             </h2>
           </Reveal>
           <Reveal direction={alignEnd ? "right" : "left"} delay={0.1}>
-            <p className="mt-4 text-lg text-gold-soft">{service.short}</p>
+            <p className="mt-4 text-lg text-gold-soft drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] lg:drop-shadow-none">{service.short}</p>
           </Reveal>
           <Reveal direction={alignEnd ? "right" : "left"} delay={0.18}>
-            <p className="mt-4 text-cream-soft/85 leading-relaxed">
+            <p className="mt-4 text-cream-soft/95 leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] lg:text-cream-soft/85 lg:drop-shadow-none">
               {service.description}
             </p>
           </Reveal>
@@ -53,7 +54,7 @@ export default function ServiceFeature({
               {service.highlights.map((h) => (
                 <li
                   key={h}
-                  className="rounded-full border border-cream-soft/30 px-3.5 py-1.5 text-xs text-cream-soft/90"
+                  className="rounded-full border border-cream-soft/30 bg-espresso/40 px-3.5 py-1.5 text-xs text-cream-soft/95 backdrop-blur-sm lg:bg-transparent lg:text-cream-soft/90 lg:backdrop-blur-none"
                 >
                   {h}
                 </li>
