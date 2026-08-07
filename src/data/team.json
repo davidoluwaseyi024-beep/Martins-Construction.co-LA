@@ -1,0 +1,11 @@
+[
+  {
+    "id": "founder",
+    "role": "Founder & Owner",
+    "name": null,
+    "photo": null,
+    "bio": null,
+    "placeholder": true,
+    "note": "No verified founder name, bio, or photo has been sourced yet — the company's own site, Yelp, Facebook, and BBB profiles do not surface owner biographical details, and none should be invented. Replace name/photo/bio with real, client-provided content, then flip placeholder to false."
+  }
+]

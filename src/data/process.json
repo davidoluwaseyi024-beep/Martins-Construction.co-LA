@@ -1,0 +1,22 @@
+[
+  {
+    "step": "01",
+    "title": "Call & Consultation",
+    "description": "Call for a free in home estimate. We listen first: to your wishes, your needs, and how you actually use the space."
+  },
+  {
+    "step": "02",
+    "title": "Design & Planning",
+    "description": "We work through layout, materials, and budget together, so there are no surprises once work begins."
+  },
+  {
+    "step": "03",
+    "title": "Construction",
+    "description": "Meticulous attention to detail at every phase, with open, honest communication on progress the whole way through."
+  },
+  {
+    "step": "04",
+    "title": "Final Walkthrough",
+    "description": "We finish on schedule and within budget, then walk the finished space with you to confirm it matches what you envisioned."
+  }
+]

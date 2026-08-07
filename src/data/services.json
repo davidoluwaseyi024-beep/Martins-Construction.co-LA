@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "kitchen-remodeling",
+    "name": "Kitchen Remodeling",
+    "short": "Custom kitchens built around how you actually live and cook.",
+    "description": "The kitchen is the room that brings everyone together, so we treat it that way, designing around your layout, cabinetry, countertops, flooring, fixtures, and appliances until the space fits your taste and your routine, not a showroom template. We work in a range of styles, from Old World kitchens with distressed cabinets to clean, contemporary rooms with minimal ornamentation, and we build every one to hold up to real daily use.",
+    "highlights": [
+      "Old World kitchens with distressed cabinetry",
+      "Tuscan designs in natural, earth tone materials",
+      "French Country styling with decorative shelving",
+      "Clean, contemporary kitchens with minimal ornamentation"
+    ],
+    "image": "/images/services/kitchen-remodeling.jpg",
+    "homeImage": "/images/home/kitchen-remodeling.jpg"
+  },
+  {
+    "slug": "bathroom-remodeling",
+    "name": "Bathroom Remodeling",
+    "short": "Bathrooms reimagined as a private place to unwind.",
+    "description": "A bathroom remodel is one of the fastest ways to change how a home feels day to day, and one of the first things buyers notice if you ever sell. We handle every fixture and finish ourselves: tile and flooring, vanities, lighting, shower and tub doors, sinks and toilets, all tailored to your budget and how you want the space to feel, from a quick refresh to a full private retreat.",
+    "highlights": [
+      "Glass enclosed walk in showers",
+      "Vessel sinks with stainless faucets",
+      "Oversized soaking tubs",
+      "Custom storage built into the design"
+    ],
+    "image": "/images/services/bathroom-remodeling.jpg",
+    "homeImage": "/images/home/bathroom-remodeling.jpg"
+  },
+  {
+    "slug": "kitchen-bathroom-remodel",
+    "name": "Kitchen & Bath Remodels",
+    "short": "Combined kitchen and bathroom projects, coordinated from one team.",
+    "description": "When you're renovating both spaces at once, splitting the work across separate contractors usually means separate schedules, separate budgets, and gaps where nobody's quite in charge. We run combined kitchen and bath projects as one job from day one, with a single team keeping design, sequencing, and budget aligned so the two spaces come together on the same timeline, not two staggered ones.",
+    "highlights": [
+      "One team, one schedule, one budget",
+      "Design coordinated across both spaces",
+      "Fewer disruptions to daily life during construction"
+    ],
+    "image": "/images/services/kitchen-bath-combo.jpg",
+    "homeImage": "/images/home/kitchen-bath-combo.jpg"
+  },
+  {
+    "slug": "room-addition",
+    "name": "Room Additions & Extensions",
+    "short": "More space, built to match your home's original architecture.",
+    "description": "Adding on is often the more practical move over relocating. You keep the neighborhood, the school district, the yard you've already put work into, and gain the room you actually need. We build family rooms, home offices, guest suites, and second-story additions to flow seamlessly with your home's existing architecture, so the finished addition reads as part of the original structure, not an obvious add on.",
+    "highlights": [
+      "Family rooms and home offices",
+      "Guest bedrooms and suites",
+      "Second story additions",
+      "Seamless architectural matching, inside and out"
+    ],
+    "image": "/images/services/room-addition.jpg",
+    "homeImage": "/images/home/room-addition.jpg"
+  },
+  {
+    "slug": "adu",
+    "name": "ADU & Garage Conversion",
+    "short": "An unused garage, turned into square footage that earns its keep.",
+    "description": "That garage is doing less for you every year it sits half used for storage. Converted the right way, it becomes a rental unit, a space for family, a home office, or simply room to grow, without the cost or disruption of building an addition from the ground up. We handle it start to finish, from design and permitting through the last coat of paint, working stud by stud so the finished space matches the quality and character of your primary home, not a converted afterthought.",
+    "highlights": [
+      "Detached and attached ADU construction",
+      "Garage to ADU conversions",
+      "Permitting and plan check coordination",
+      "Design that matches your primary residence"
+    ],
+    "image": "/images/services/adu-exterior.jpg",
+    "homeImage": "/images/home/adu-garage-conversion.jpg"
+  },
+  {
+    "slug": "custom-home-building",
+    "name": "Custom Home Building",
+    "short": "New construction, residential and commercial.",
+    "description": "Full scope new construction for homeowners and commercial clients who want more than a general contractor pulling permits. They want a building process defined by craftsmanship and clear communication at every phase, from foundation to final walkthrough. We take on both residential and commercial ground-up projects across the greater Los Angeles area.",
+    "highlights": [
+      "Ground up residential construction",
+      "Commercial construction projects",
+      "General contracting, foundation to finish"
+    ],
+    "image": "/images/services/custom-home-building.jpg",
+    "homeImage": "/images/home/custom-home-building.jpg"
+  }
+]

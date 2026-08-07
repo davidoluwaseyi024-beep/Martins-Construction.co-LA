@@ -1,0 +1,20 @@
+{
+  "name": "Martins Construction",
+  "phone": "(818) 518-6002",
+  "phoneHref": "tel:+18185186002",
+  "email": "MartinsConstruction@yahoo.com",
+  "address": "11611 San Vicente Blvd, Los Angeles, CA 90049",
+  "license": "873368",
+  "yearsInBusiness": 31,
+  "hours": [
+    { "days": "Monday – Saturday", "time": "8:00 AM – 7:00 PM" },
+    { "days": "Sunday", "time": "Closed" }
+  ],
+  "tagline": "Listen better. Plan better. Build better.",
+  "social": {
+    "facebook": "https://www.facebook.com/MartinsConstructionCorp/",
+    "yelp": "https://www.yelp.com/biz/martins-construction-los-angeles-13",
+    "linkedin": "https://www.linkedin.com/in/martinsconstruction",
+    "youtube": "https://www.youtube.com/channel/UCjLE3jCjbQ_8-_yS7gUncZQ"
+  }
+}

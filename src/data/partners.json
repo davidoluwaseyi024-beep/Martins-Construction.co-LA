@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Habitat for Humanity – Greater Los Angeles",
+    "url": "https://www.habitatla.org/",
+    "logo": "/images/partners/habitat-for-humanity-logo.svg",
+    "note": "habitatla.org itself is still behind Cloudflare bot protection, so this is Habitat for Humanity International's public-domain logo (Wikimedia Commons, sourced from habitat.org's own multimedia assets) rather than the Greater LA affiliate's own mark. Local affiliates generally use the national branding as-is, but swap in an LA-specific lockup if the client has one."
+  },
+  {
+    "name": "Build It Green",
+    "url": "https://www.builditgreen.org/",
+    "logo": "/images/partners/build-it-green-logo.svg",
+    "onDark": true,
+    "note": "Sourced file is Build It Green's official \"dark backgrounds\" variant (near-white wordmark) — rendered on a dark chip so it stays legible. Their site started rate-limiting automated requests before a light-background variant could be located; swap in the light variant from builditgreen.org if you'd prefer it to match the other tiles exactly."
+  },
+  {
+    "name": "The Franklin Report",
+    "url": "https://www.franklinreport.com/",
+    "logo": "/images/partners/franklin-report-logo.png"
+  },
+  {
+    "name": "Business Consumer Alliance",
+    "url": "https://www.checkbca.org/",
+    "logo": "/images/partners/business-consumer-alliance-logo.png"
+  },
+  {
+    "name": "Houzz",
+    "url": "https://www.houzz.com/",
+    "logo": "/images/partners/houzz-logo.svg"
+  },
+  {
+    "name": "Ygrene",
+    "url": "https://ygrene.com/",
+    "logo": "/images/partners/ygrene-logo.png"
+  },
+  {
+    "name": "California FIRST",
+    "url": "https://californiafirst.org/",
+    "logo": "/images/partners/renew-financial-logo.jpg",
+    "note": "californiafirst.org now redirects to Renew Financial (renewfinancial.com/product/californiafirst), and renewfinancial.com itself blocks automated fetches — so this is Renew Financial's official logo pulled from one of their own PR Newswire press-release attachments instead. Worth confirming with the client whether this PACE program relationship is still current under Renew Financial's branding."
+  },
+  {
+    "name": "Efficiency First California",
+    "url": "https://efficiencyfirstca.org/",
+    "logo": "/images/partners/efficiency-first-california-logo.png",
+    "note": "Formerly \"California Building Performance Contractors Association (CBPCA)\" — CBPCA renamed to Efficiency First California in 2012. Using the current org name/logo per client direction."
+  },
+  {
+    "name": "HERO Program",
+    "url": "https://www.heroprogram.com/",
+    "logo": "/images/partners/hero-program-logo.jpg",
+    "note": "Logo pulled from Renovate America's own PR Newswire press-release attachments (heroprogram.com and renovateamerica.com both block automated fetches). Still couldn't confirm current operational status as of 2026 — Renovate America went through bankruptcy proceedings in 2020. Confirm this program is still active under this name before relying on the logo/link for anything client-facing."
+  }
+]
