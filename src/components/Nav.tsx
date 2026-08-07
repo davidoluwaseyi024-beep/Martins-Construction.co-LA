@@ -10,7 +10,9 @@ import { company } from "@/lib/content";
 const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/portfolio", label: "Portfolio" },
   { href: "/about", label: "About" },
+  { href: "/team", label: "Team" },
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ];
