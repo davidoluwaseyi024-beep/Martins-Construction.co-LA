@@ -4,6 +4,7 @@ import ServiceFeature from "@/components/ServiceFeature";
 import Reveal from "@/components/motion/Reveal";
 import ParallaxImage from "@/components/motion/ParallaxImage";
 import { services, serviceAreas } from "@/lib/content";
+import { buildServiceListSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Services | Martins Construction",
@@ -12,8 +13,15 @@ export const metadata: Metadata = {
 };
 
 export default function ServicesPage() {
+  const serviceListSchema = buildServiceListSchema();
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceListSchema) }}
+      />
+
       <section className="border-b border-line bg-cream-soft">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
           <Reveal>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { SITE_URL, buildLocalBusinessSchema } from "@/lib/schema";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -16,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Martins Construction | Los Angeles General Contractor",
   description:
     "Martins Construction is a licensed general contractor serving the greater Los Angeles area for 31 years, offering kitchen and bathroom remodeling, room additions, ADUs, and custom home building.",
@@ -26,12 +28,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const localBusinessSchema = buildLocalBusinessSchema();
+
   return (
     <html
       lang="en"
       className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-espresso">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
         <Nav />
         <main className="flex-1 pt-18">{children}</main>
         <Footer />
