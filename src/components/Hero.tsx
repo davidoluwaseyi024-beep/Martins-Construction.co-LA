@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import ParallaxImage from "@/components/motion/ParallaxImage";
+import TrustBadges from "@/components/TrustBadges";
 import { StaggerGroup, StaggerItem } from "@/components/motion/Stagger";
 import { company } from "@/lib/content";
 
@@ -53,6 +54,9 @@ export default function Hero() {
           >
             View Our Services
           </Link>
+        </StaggerItem>
+        <StaggerItem>
+          <TrustBadges variant="compact" className="mt-8" />
         </StaggerItem>
       </StaggerGroup>
     </section>

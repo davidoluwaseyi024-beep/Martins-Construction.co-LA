@@ -5,7 +5,9 @@ import ServiceCard from "@/components/ServiceCard";
 import ProcessSection from "@/components/ProcessSection";
 import ImageBanner from "@/components/ImageBanner";
 import CTASection from "@/components/CTASection";
-import Testimonials from "@/components/Testimonials";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
+import TrustBadges from "@/components/TrustBadges";
+import RecentTransformations from "@/components/RecentTransformations";
 import Reveal from "@/components/motion/Reveal";
 import { company, services, values } from "@/lib/content";
 
@@ -56,6 +58,8 @@ export default function Home() {
 
       <ProcessSection />
 
+      <RecentTransformations />
+
       <section className="bg-cream-soft">
         <div className="mx-auto max-w-6xl px-6 py-24 lg:px-8">
           <Reveal className="max-w-2xl">
@@ -87,6 +91,10 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+
+          <Reveal delay={0.15} className="mt-12">
+            <TrustBadges variant="default" />
+          </Reveal>
         </div>
       </section>
 
@@ -97,7 +105,7 @@ export default function Home() {
         heading={`Proudly serving the greater Los Angeles area for ${company.yearsInBusiness} years.`}
       />
 
-      <Testimonials />
+      <TestimonialCarousel />
 
       <CTASection />
     </>

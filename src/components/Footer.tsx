@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import TrustBadges from "@/components/TrustBadges";
 import { company, serviceAreas, services } from "@/lib/content";
 
 export default function Footer() {
@@ -18,6 +19,7 @@ export default function Footer() {
             <p className="mt-6 text-xs uppercase tracking-wide text-cream-soft/50">
               Lic. #{company.license} · Fully Licensed &amp; Insured
             </p>
+            <TrustBadges variant="footer" className="mt-5" />
           </div>
 
           <div>
